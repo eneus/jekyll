@@ -1,0 +1,28 @@
+---
+layout: page
+title: Videos
+permalink: /video/
+paginate_path: "/video/page:num/"
+---
+<div class="videos">
+  <h4>Videos</h4>
+  <div class="video-list row">
+    {% for post in site.categories['video'] %}
+    <div class="col s12 m4">
+      <div class="card large">
+        <div class="card-image">
+          <img class="activator" src="{{ post.timage }}">
+          <a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+        <div class="card-content">
+          <span><b>{{ post.author }}</b> • {{ post.date | date: "%b %-d, %Y" }}</span>
+          <p>{{ post.teaser }}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

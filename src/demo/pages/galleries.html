@@ -1,0 +1,28 @@
+---
+layout: page
+title: Galleries
+permalink: /gallery/
+---
+
+<div class="galleries">
+
+  <div class="galleries-list row">
+    {% for post in site.categories['gallery'] %}
+    <div class="col s12 m3">
+      <div class="card large">
+        <div class="card-image">
+          <img class="activator" src="{{ post.timage }}">
+          <a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+        <div class="card-content">
+          <span><b>{{ post.author }}</b> • {{ post.date | date: "%b %-d, %Y" }}</span>
+          <p>{{ post.teaser }}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

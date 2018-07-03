@@ -1,0 +1,15 @@
+{
+  "name": "democontent",
+  "version": "1.0.0",
+  "description": "JavaScript libraries for eneus/jekyll Demo Content.",
+  "main": "index.js",
+  "repository": "https://github.com/eneus/jekyll",
+  "author": "Ivan Fesiuk",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "materialize": "^1.0.0",
+    "photoswipe": "^4.1.2",
+    "slick": "^1.12.2"
+  }
+}

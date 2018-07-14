@@ -1,0 +1,29 @@
+---
+layout: page
+title: News
+permalink: /news/
+---
+
+<div class="news">
+
+  <div class="news-list row">
+    {% for post in site.categories['news'] %}
+    <div class="col s12 m4">
+      <div class="card large">
+        <div class="card-image">
+          {% asset '{{ post.image }}' magick:resize="300x200" magick:crop="300x200" magick:quality="25%" class="image activator" alt='{{ post.title }}' %}
+          <a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+        <div class="card-content">
+          <span><b>{{ post.author }}</b> • {{ post.date | date: "%b %-d, %Y" }}</span>
+          <p>{{ post.teaser }}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  
+</div>

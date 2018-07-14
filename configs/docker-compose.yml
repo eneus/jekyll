@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  jekyll:
+    build: ./jekyll/
+    container_name: "${COMPOSE_PROJECT_NAME}_jekyll"
+    working_dir: /srv/jekyll/src
+    hostname: jekyll
+    command: jekyll serve --watch --config ${COMPOSE_PROJECT}.yml --host=0.0.0.0
+    ports:
+      - 4000:4000
+    volumes:
+      - ../:/srv/jekyll:cached

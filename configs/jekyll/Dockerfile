@@ -1,7 +1,7 @@
 FROM alpine:3.7
 LABEL maintainer="Ivan Fesyuk <eneus@i.ua>"
 
-ENV BUILD_PACKAGES bash curl-dev make build-base libffi-dev clang zlib-dev libxml2-dev libxslt-dev readline-dev yaml-dev zlib libxml2 
+ENV BUILD_PACKAGES bash curl-dev make build-base libffi-dev clang zlib-dev libxml2-dev libxslt-dev readline-dev yaml-dev zlib libxml2 imagemagick
 ENV RUBY_PACKAGES ruby ruby-dev ruby-io-console ruby-bundler ruby-rdoc ruby-irb
 
 # Update and install all of the required packages.
@@ -32,7 +32,15 @@ RUN gem install \
   kramdown \
   rdiscount \
   rouge \
-  jekyll-admin
+  uglifier \
+  sprockets \
+  mini_magick \
+  image_optim \
+  image_optim_bin \
+  jekyll-assets \
+  jekyll-compass \
+  bourbon \
+  jekyll-multiple-languages-plugin
 RUN gem clean
 
 #Install packages
@@ -47,4 +55,3 @@ RUN mkdir -p /srv/jekyll && chown -R jekyll:jekyll /srv/jekyll
 RUN echo 'jekyll ALL=NOPASSWD:ALL' >> /etc/sudoers
 
 EXPOSE 4000
-# WORKDIR /srv/jekyll/src

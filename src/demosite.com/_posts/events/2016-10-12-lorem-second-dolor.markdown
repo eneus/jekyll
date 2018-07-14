@@ -3,8 +3,7 @@ layout: event
 title: Lorem second dolor
 categories: event
 author: Elon Quarz
-timage: /assets/images/content/teaser/10.jpg
-image: /assets/images/content/original/10.jpg
+image: 10.jpg
 teaser: Donec eget eros dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam leo felis, blandit eget consectetur vitae, molestie et mauris. Praesent ut venenatis felis, sit amet gravida mi. Nullam finibus ultricies turpis sit amet maximus. Nunc quis lectus leo. Duis a rutrum libero.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

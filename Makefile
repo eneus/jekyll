@@ -40,7 +40,7 @@ lib:
 	make -s up
 	# TODO: implement nodejs container + yarn
 	@echo "Building libraries dependencies tasks..."
-	$(call jekyll, /bin/sh -c "cd /srv/jekyll/src/${COMPOSE_PROJECT}/lib && yarn install")
+	$(call jekyll, /bin/sh -c "cd /srv/jekyll/src/${COMPOSE_PROJECT}/_assets && yarn install")
 
 ## Project's containers information
 info:

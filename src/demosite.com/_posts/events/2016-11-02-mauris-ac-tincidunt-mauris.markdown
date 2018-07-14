@@ -3,8 +3,7 @@ layout: event
 title:  Mauris ac tincidunt mauris
 categories: event
 author: Elon Quarz
-timage: /assets/images/content/teaser/11.jpg
-image: /assets/images/content/original/11.jpg
+image: 11.jpg
 teaser: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ac tincidunt mauris, a imperdiet ipsum. Nam posuere vehicula ornare. Curabitur at leo quis metus iaculis bibendum et a sem. Nam condimentum congue nulla. Sed nec tincidunt urna.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

@@ -3,8 +3,7 @@ layout: video
 title: Proin ex neque
 categories: video
 author: Melisa Carter
-timage: /assets/images/content/teaser/4.jpg
-image: /assets/images/content/original/4.jpg
+image: 4.jpg
 teaser: Proin ex neque, commodo id sollicitudin et, egestas et mauris. Aliquam nisi mi, porttitor vel rutrum id, congue at felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ac tincidunt mauris, a imperdiet ipsum. Nam posuere vehicula ornare. Curabitur at leo quis metus iaculis bibendum et a sem. Nam condimentum congue nulla. Sed nec tincidunt urna. Nunc dignissim gravida leo, sit amet maximus mi elementum et.
 ---
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/3nmnMtbzzjE?showinfo=0" frameborder="0" allowfullscreen></iframe>

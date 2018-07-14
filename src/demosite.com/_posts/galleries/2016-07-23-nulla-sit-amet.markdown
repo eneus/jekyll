@@ -4,8 +4,7 @@ title: Nulla sit amet placerat risus
 categories: gallery
 author: John Qsef
 images: [31.jpg, 32.jpg, 33.jpg, 34.jpg, 35.jpg]
-timage: /assets/images/content/teaser/31.jpg
-image: /assets/images/content/original/31.jpg
+image: 31.jpg
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat
 elit placerat mattis. Nulla auctor, nisi vitae luctus varius, felis eros sodales

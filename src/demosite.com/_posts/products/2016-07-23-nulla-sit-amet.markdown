@@ -4,8 +4,7 @@ title: Nulla sit amet placerat risus
 categories: product
 author: John Qsef
 price: 5300
-timage: /assets/images/content/teaser/34.jpg
-image: /assets/images/content/original/34.jpg
+image: 34.jpg
 teaser: Nulla sit amet placerat risus. Etiam a justo lobortis, rutrum diam vitae, volutpat ex. Nulla sodales sollicitudin volutpat. Aenean ligula tortor, sodales non ligula tempor, lacinia tincidunt ex. Nullam varius posuere mauris, quis laoreet magna euismod eleifend. Ut efficitur eget urna vel pretium. Pellentesque aliquet neque sed tortor sollicitudin dapibus. Vivamus eu fermentum ligula. Pellentesque pretium, nisl at tempus mattis, elit enim fringilla diam, nec convallis urna diam at lectus. Ut vel purus et purus pellentesque consequat. Proin orci felis, bibendum id lacus in, consectetur sagittis ipsum.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

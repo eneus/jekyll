@@ -3,8 +3,7 @@ layout: video
 title:  Mauris ac tincidunt mauris
 categories: video
 author: Elon Quarz
-timage: /assets/images/content/teaser/11.jpg
-image: /assets/images/content/original/11.jpg
+image: 11.jpg
 teaser: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ac tincidunt mauris, a imperdiet ipsum. Nam posuere vehicula ornare. Curabitur at leo quis metus iaculis bibendum et a sem. Nam condimentum congue nulla. Sed nec tincidunt urna.
 ---
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/Scxs7L0vhZ4?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

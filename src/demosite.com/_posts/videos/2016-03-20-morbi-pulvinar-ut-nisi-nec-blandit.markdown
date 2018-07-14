@@ -3,8 +3,7 @@ layout: video
 title: Morbi pulvinar ut nisi nec blandit
 categories: video
 author: Melisa Carter
-timage: /assets/images/content/teaser/3.jpg
-image: /assets/images/content/original/3.jpg
+image: 3.jpg
 teaser: Consectetur adipiscing elit. Integer maximus consequat elit placerat mattis. Nulla auctor, nisi vitae luctus varius, felis eros sodales ligula, eget euismod velit ligula ut quam. Morbi pulvinar ut nisi nec blandit. Nunc semper, diam at accumsan molestie, lacus metus efficitur arcu, vitae bibendum enim justo vel libero. Maecenas risus tortor, blandit at felis vel, dictum ornare tortor. Nullam vitae convallis libero. Etiam pharetra mi eu iaculis tempus. Morbi vehicula ex velit, vitae blandit justo iaculis ac.
 ---
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/ssutK1Gei4A?showinfo=0" frameborder="0" allowfullscreen></iframe>

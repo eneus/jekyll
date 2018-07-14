@@ -4,8 +4,7 @@ title:  Mauris ac tincidunt mauris
 categories: product
 author: Elon Quarz
 price: 97 500
-timage: /assets/images/content/teaser/36.jpg
-image: /assets/images/content/original/36.jpg
+image: 36.jpg
 teaser: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ac tincidunt mauris, a imperdiet ipsum. Nam posuere vehicula ornare. Curabitur at leo quis metus iaculis bibendum et a sem. Nam condimentum congue nulla. Sed nec tincidunt urna.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

@@ -1,11 +1,10 @@
 ---
 layout: gallery
-title: Pellentesque aliquet neque sed tortor
+title: Pellentesque sed tortor
 categories: gallery
 author: Melisa Carter
 images: [36.jpg, 37.jpg, 38.jpg, 39.jpg, 40.jpg]
-timage: /assets/images/content/teaser/36.jpg
-image: /assets/images/content/original/36.jpg
+image: 40.jpg
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat
 elit placerat mattis. Nulla auctor, nisi vitae luctus varius, felis eros sodales

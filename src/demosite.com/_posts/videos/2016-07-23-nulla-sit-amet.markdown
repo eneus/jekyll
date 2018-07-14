@@ -3,8 +3,7 @@ layout: video
 title: Nulla sit amet placerat risus
 categories: video
 author: John Qsef
-timage: /assets/images/content/teaser/7.jpg
-image: /assets/images/content/original/7.jpg
+image: 7.jpg
 teaser: Nulla sit amet placerat risus. Etiam a justo lobortis, rutrum diam vitae, volutpat ex. Nulla sodales sollicitudin volutpat. Aenean ligula tortor, sodales non ligula tempor, lacinia tincidunt ex. Nullam varius posuere mauris, quis laoreet magna euismod eleifend. Ut efficitur eget urna vel pretium. Pellentesque aliquet neque sed tortor sollicitudin dapibus. Vivamus eu fermentum ligula. Pellentesque pretium, nisl at tempus mattis, elit enim fringilla diam, nec convallis urna diam at lectus. Ut vel purus et purus pellentesque consequat. Proin orci felis, bibendum id lacus in, consectetur sagittis ipsum.
 ---
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/4_Hx8TS9diw?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

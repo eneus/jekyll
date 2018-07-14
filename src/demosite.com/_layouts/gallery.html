@@ -12,13 +12,14 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-    <div class="galleries-list row">
+    <div class="post-gallery row">
       {% for image in page.images %}
-      <div class="col s12 m3">
-        <div class="card-image">
-          <img class="activator" src="/assets/images/content/original/{{ image }}">
-        </div>
-      </div>
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="/assets/images/{{ image }}" itemprop="contentUrl" class="thumbnail-img" data-size="1440x960">
+              {% asset '{{ image }}' magick:resize="300x200!" magick:crop="300x200" magick:quality="25%" class="image activator" itemprop="thumbnail" alt='{{ post.title }}' %}
+            </a>
+            <figcaption itemprop="caption description">{{ page.title }}</figcaption>
+        </figure>
       {% endfor %}
   </div>
 

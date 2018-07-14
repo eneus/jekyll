@@ -4,8 +4,7 @@ title: Proin ex neque
 categories: product
 author: Melisa Carter
 price: 230
-timage: /assets/images/content/teaser/28.jpg
-image: /assets/images/content/original/28.jpg
+image: 28.jpg
 teaser: Proin ex neque, commodo id sollicitudin et, egestas et mauris. Aliquam nisi mi, porttitor vel rutrum id, congue at felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ac tincidunt mauris, a imperdiet ipsum. Nam posuere vehicula ornare. Curabitur at leo quis metus iaculis bibendum et a sem. Nam condimentum congue nulla. Sed nec tincidunt urna. Nunc dignissim gravida leo, sit amet maximus mi elementum et.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

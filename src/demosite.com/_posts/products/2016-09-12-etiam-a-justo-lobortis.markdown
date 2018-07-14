@@ -4,8 +4,7 @@ title: Etiam a justo lobortis
 categories: product
 author: John Qsef
 price: 27
-timage: /assets/images/content/teaser/33.jpg
-image: /assets/images/content/original/33.jpg
+image: 33.jpg
 teaser: Nulla sit amet placerat risus. Etiam a justo lobortis, rutrum diam vitae, volutpat ex. Nulla sodales sollicitudin volutpat. Aenean ligula tortor, sodales non ligula tempor, lacinia tincidunt ex. Nullam varius posuere mauris, quis laoreet magna euismod eleifend. Ut efficitur eget urna vel pretium. Pellentesque aliquet neque sed tortor sollicitudin dapibus.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

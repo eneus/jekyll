@@ -4,8 +4,7 @@ title: Praesent ut sollicitudin nulla
 categories: product
 author: John Qsef
 price: 53
-timage: /assets/images/content/teaser/37.jpg
-image: /assets/images/content/original/37.jpg
+image: 37.jpg
 teaser: Aliquam id diam ultrices, bibendum sapien at, eleifend dolor. Praesent ut sollicitudin nulla. Suspendisse maximus faucibus odio, quis placerat lectus efficitur sit amet. Donec eget eros dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

@@ -11,6 +11,7 @@ layout: default
   </div>
 
   <div class="post-content" itemprop="articleBody">
+      {% asset '{{ page.image }}' magick:quality="25%" class="image activator" alt='{{ post.title }}' %}
     {{ content }}
   </div>
 

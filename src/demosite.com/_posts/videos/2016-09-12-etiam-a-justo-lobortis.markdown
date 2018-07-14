@@ -3,8 +3,7 @@ layout: video
 title: Etiam a justo lobortis
 categories: video
 author: John Qsef
-timage: /assets/images/content/teaser/9.jpg
-image: /assets/images/content/original/9.jpg
+image: 9.jpg
 teaser: Nulla sit amet placerat risus. Etiam a justo lobortis, rutrum diam vitae, volutpat ex. Nulla sodales sollicitudin volutpat. Aenean ligula tortor, sodales non ligula tempor, lacinia tincidunt ex. Nullam varius posuere mauris, quis laoreet magna euismod eleifend. Ut efficitur eget urna vel pretium. Pellentesque aliquet neque sed tortor sollicitudin dapibus.
 ---
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/WxCUs1kZros?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

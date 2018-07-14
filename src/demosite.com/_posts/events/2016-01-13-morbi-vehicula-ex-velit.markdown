@@ -3,8 +3,7 @@ layout: event
 title: Morbi vehicula ex velit
 categories: event
 author: John Qsef
-timage: /assets/images/content/teaser/1.jpg
-image: /assets/images/content/original/1.jpg
+image: 1.jpg
 teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat elit placerat mattis. Nulla auctor, nisi vitae luctus varius, felis eros sodales ligula, eget euismod velit ligula ut quam. Morbi pulvinar ut nisi nec blandit. Nunc semper, diam at accumsan molestie, lacus metus efficitur arcu, vitae bibendum enim justo vel libero. Maecenas risus tortor, blandit at felis vel, dictum ornare tortor. Nullam vitae convallis libero. Etiam pharetra mi eu iaculis tempus. Morbi vehicula ex velit, vitae blandit justo iaculis ac.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

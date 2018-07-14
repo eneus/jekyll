@@ -4,8 +4,7 @@ title: Curabitur at leo quis metus
 categories: gallery
 author: Elon Quarz
 images: [21.jpg, 22.jpg, 23.jpg, 24.jpg, 25.jpg]
-timage: /assets/images/content/teaser/21.jpg
-image: /assets/images/content/original/21.jpg
+image: 21.jpg
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat
 elit placerat mattis. Nulla auctor, nisi vitae luctus varius, felis eros sodales

@@ -3,8 +3,7 @@ layout: news
 title: Curabitur at leo quis metus
 categories: news
 author: Elon Quarz
-timage: /assets/images/content/teaser/17.jpg
-image: /assets/images/content/original/17.jpg
+image: 17.jpg
 teaser: Curabitur at leo quis metus iaculis bibendum et a sem. Nam condimentum congue nulla. Sed nec tincidunt urna. Nunc dignissim gravida leo, sit amet maximus mi elementum et. Nam at neque ac sem rhoncus congue. Phasellus gravida sapien tortor, vel tincidunt tellus vestibulum placerat. Cras id enim at sapien sollicitudin pellentesque. Aenean tempor imperdiet neque, id hendrerit felis finibus eget. In accumsan facilisis urna eget consequat.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

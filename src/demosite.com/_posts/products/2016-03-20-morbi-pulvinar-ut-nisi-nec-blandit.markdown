@@ -4,8 +4,7 @@ title: Morbi pulvinar ut nisi nec blandit
 categories: product
 author: Melisa Carter
 price: 12.5
-timage: /assets/images/content/teaser/27.jpg
-image: /assets/images/content/original/27.jpg
+image: 27.jpg
 teaser: Consectetur adipiscing elit. Integer maximus consequat elit placerat mattis. Nulla auctor, nisi vitae luctus varius, felis eros sodales ligula, eget euismod velit ligula ut quam. Morbi pulvinar ut nisi nec blandit. Nunc semper, diam at accumsan molestie, lacus metus efficitur arcu, vitae bibendum enim justo vel libero. Maecenas risus tortor, blandit at felis vel, dictum ornare tortor. Nullam vitae convallis libero. Etiam pharetra mi eu iaculis tempus. Morbi vehicula ex velit, vitae blandit justo iaculis ac.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

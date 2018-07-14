@@ -3,8 +3,7 @@ layout: blog
 title: Pellentesque aliquet neque sed tortor
 categories: blog
 author: Melisa Carter
-timage: /assets/images/content/teaser/20.jpg
-image: /assets/images/content/original/20.jpg
+image: 20.jpg
 teaser: Ut efficitur eget urna vel pretium. Pellentesque aliquet neque sed tortor sollicitudin dapibus. Vivamus eu fermentum ligula. Pellentesque pretium, nisl at tempus mattis, elit enim fringilla diam, nec convallis urna diam at lectus. Ut vel purus et purus pellentesque consequat. Proin orci felis, bibendum id lacus in, consectetur sagittis ipsum.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

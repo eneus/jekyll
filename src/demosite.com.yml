@@ -8,28 +8,20 @@
 sass:
     sass_dir: _sass
     style: compressed
-
-jekyll_admin:
-  hidden_links:
-    - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
     
 # This will require each of these plugins automatically.
 plugins:
   - jekyll-paginate
+  - jekyll-assets
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-admin
 
 # Site settings
 title: Demo Site
 email: admin@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
+  line in `./src/demosite.com.yml`. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 source: demosite.com
@@ -41,3 +33,11 @@ github_username:  eneus
 
 # Build settings
 markdown: kramdown
+
+sources:
+  - assets/images
+  - _assets/css
+  - _assets/fonts
+  - _assets/images
+  - _assets/images/logos
+  - _assets/node_modules

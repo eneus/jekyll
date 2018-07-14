@@ -3,8 +3,7 @@ layout: blog
 title:  Mauris ac tincidunt mauris
 categories: blog
 author: Elon Quarz
-timage: /assets/images/content/teaser/23.jpg
-image: /assets/images/content/original/23.jpg
+image: 23.jpg
 teaser: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ac tincidunt mauris, a imperdiet ipsum. Nam posuere vehicula ornare. Curabitur at leo quis metus iaculis bibendum et a sem. Nam condimentum congue nulla. Sed nec tincidunt urna.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

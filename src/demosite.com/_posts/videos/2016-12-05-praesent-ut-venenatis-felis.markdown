@@ -3,8 +3,7 @@ layout: video
 title: Praesent ut sollicitudin nulla
 categories: video
 author: John Qsef
-timage: /assets/images/content/teaser/12.jpg
-image: /assets/images/content/original/12.jpg
+image: 12.jpg
 teaser: Aliquam id diam ultrices, bibendum sapien at, eleifend dolor. Praesent ut sollicitudin nulla. Suspendisse maximus faucibus odio, quis placerat lectus efficitur sit amet. Donec eget eros dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 ---
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/mcixldqDIEQ?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

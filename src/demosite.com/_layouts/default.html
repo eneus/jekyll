@@ -4,7 +4,7 @@
   {% include head.html %}
 
   <body>
-    <div class="">
+    <div class="header-nav">
       {% include header.html %}
 
       <div class="container">
@@ -15,5 +15,9 @@
 
       {% include footer.html %}
     </div>
+
   </body>
+  {% include javascript-cdn.html %}
+  <script src="/assets/js/photoswipe.init.js"></script>
+  {% include photoswipe.html %}
 </html>

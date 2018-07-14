@@ -1,38 +1,95 @@
 ---
 layout: page
-title: About
+title: About Jekyll Docker Container
 permalink: /about/
 ---
 
-This is the Jekyll Fish theme with Lorem Ipsum content and simple images with different content types and templates for each content.
+This is the Jekyll Demo Site Content theme with Lorem Ipsum content and simple images with different content types and templates for each content.
 You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat
-elit placerat mattis. Nulla auctor, nisi vitae luctus varius, felis eros sodales
-ligula, eget euismod velit ligula ut quam. Morbi pulvinar ut nisi nec blandit.
-Nunc semper, diam at accumsan molestie, lacus metus efficitur arcu, vitae bibendum enim
-justo vel libero. Maecenas risus tortor, blandit at felis vel, dictum ornare tortor.
-Nullam vitae convallis libero. Etiam pharetra mi eu iaculis tempus. Morbi vehicula ex
-velit, vitae blandit justo iaculis ac.</p>
+![](/assets/docker-jekyll.png)
 
-<p>Proin ex neque, commodo id sollicitudin et, egestas et mauris. Aliquam nisi mi, porttitor
-vel rutrum id, congue at felis. Class aptent taciti sociosqu ad litora torquent per conubia
-nostra, per inceptos himenaeos. Mauris ac tincidunt mauris, a imperdiet ipsum.
-Nam posuere vehicula ornare. Curabitur at leo quis metus iaculis bibendum et a sem.
-Nam condimentum congue nulla. Sed nec tincidunt urna. Nunc dignissim gravida leo, sit
-amet maximus mi elementum et. Nam at neque ac sem rhoncus congue. Phasellus gravida
-sapien tortor, vel tincidunt tellus vestibulum placerat. Cras id enim at sapien sollicitudin
-pellentesque. Aenean tempor imperdiet neque, id hendrerit felis finibus eget. In accumsan
-facilisis urna eget consequat. Proin pretium nisi diam, at pulvinar urna commodo et. Nunc
-leo risus, facilisis sed cursus non, condimentum blandit arcu.</p>
 
-<p>Integer rutrum sem at metus scelerisque faucibus. Nulla sit amet placerat risus. Etiam a
-justo lobortis, rutrum diam vitae, volutpat ex. Nulla sodales sollicitudin volutpat. Aenean
-ligula tortor, sodales non ligula tempor, lacinia tincidunt ex. Nullam varius posuere mauris,
-quis laoreet magna euismod eleifend. Ut efficitur eget urna vel pretium. Pellentesque aliquet
-neque sed tortor sollicitudin dapibus. Vivamus eu fermentum ligula. Pellentesque pretium,
-nisl at tempus mattis, elit enim fringilla diam, nec convallis urna diam at lectus. Ut vel
-purus et purus pellentesque consequat. Proin orci felis, bibendum id lacus in, consectetur
-sagittis ipsum. Sed vel imperdiet augue. Aliquam id diam ultrices, bibendum sapien at, eleifend
-dolor. Praesent ut sollicitudin nulla. Suspendisse maximus faucibus odio, quis placerat lectus
-efficitur sit amet.</p>
+
+## Plugins included:
+```
+- Jekyll: 3.8.3
+  -- jekyll-paginate
+  -- jekyll-sitemap
+  -- jekyll-feed
+  -- jekyll-multisite
+  -- jekyll-github-metadata
+  -- jekyll-seo-tag
+  -- jekyll-watch
+  -- jekyll-sass-converter
+  -- jekyll-assets
+  -- jekyll-multiple-languages-plugin
+- Compass: 1.0.3
+- NodeJS: 8.9.3
+-- NPM: 5.5.1
+-- Yarn: 1.3.2
+```
+
+## The first of all:
+> ##### Install Docker:
+> On Linux Ubuntu/Debian:
+> -  [https://docs.docker.com/install/linux/docker-ce/ubuntu/](https://docs.docker.com/install/linux/docker-ce/ubuntu/) 
+> -  [https://docs.docker.com/install/linux/docker-ce/debian/](https://docs.docker.com/install/linux/docker-ce/debian/)
+>
+> On MacOS:
+> -  [https://docs.docker.com/docker-for-mac/install/](https://docs.docker.com/docker-for-mac/install/)
+>
+> On Windows:
+> -  [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/) 
+>
+> ##### Install Docker Compose:
+> - https://docs.docker.com/compose/install/
+
+
+##### Download repository:
+
+```
+git clone git@github.com:eneus/jekyll.git
+```
+
+##### Go to downloaded folder:
+
+```
+cd jekyll
+```
+
+##### Configure your .env file:
+
+```
+COMPOSE_FILE=./configs/docker-compose.yml
+COMPOSE_PROJECT=demo           # Folder  (src/${COMPOSE_PROJECT}), config file ${COMPOSE_PROJECT}.yml,
+COMPOSE_PROJECT_NAME=demo      # short name used in container name Ex.: demo_jekyll
+SITE_NAME=Demo Content
+SITE_MAIL=admin@demosite.com
+
+IPRANGE=192.168.16.0/20
+CUID=1000
+CGID=1000
+```
+
+##### Start docker container via Makefile:
+
+```
+$ make all
+```
+
+##### Start docker container via docker-compose:
+
+```
+docker-compose up
+or
+docker-compose up -d     //in background
+```
+
+##### Now you can access to you static site:
+
+- Jekyll Server: [http://localhost:4000](http://localhost:4000)
+
+------------
+
+Image Credits: [http://gratisography.com/](http://gratisography.com/) 

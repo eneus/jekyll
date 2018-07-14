@@ -4,8 +4,7 @@ title: Proin ex neque
 categories: gallery
 author: Melisa Carter
 images: [16.jpg, 17.jpg, 18.jpg, 19.jpg, 20.jpg]
-timage: /assets/images/content/teaser/16.jpg
-image: /assets/images/content/original/16.jpg
+image: 16.jpg
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat
 elit placerat mattis. Nulla auctor, nisi vitae luctus varius, felis eros sodales

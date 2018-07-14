@@ -11,7 +11,7 @@ permalink: /stories/
       <div class="col s12 m3">
         <div class="card large">
           <div class="card-image">
-            <img class="activator" src="{{ post.timage }}">
+            {% asset '{{ post.image }}' magick:resize="300x200" magick:crop="300x200" magick:quality="25%" class="image activator" alt='{{ post.title }}' %}
             <a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </div>
           <div class="card-content">

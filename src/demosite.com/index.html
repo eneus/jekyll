@@ -3,17 +3,15 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
+  
   <div class="articles">
     <h4>Articles</h4>
-
     <div class="articles-list row">
       {% for post in site.categories['article'] %}
         <div class="col s12 m3">
           <div class="card large">
             <div class="card-image">
-              <img class="activator" src="{{ post.timage }}">
+              {% asset '{{ post.image }}' magick:resize="300x200" magick:crop="300x200" magick:quality="25%" class="image activator" alt='{{ post.title }}' %}
               <a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </div>
             <div class="card-content">
@@ -36,7 +34,7 @@ layout: default
       <div class="col s12 m3">
         <div class="card large">
           <div class="card-image">
-            <img class="activator" src="{{ post.timage }}">
+            {% asset '{{ post.image }}' magick:resize="300x200" magick:crop="300x200" magick:quality="25%" class="image activator" alt='{{ post.title }}' %}
             <a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </div>
           <div class="card-content">
@@ -59,7 +57,7 @@ layout: default
       <div class="col s12 m3">
         <div class="card large">
           <div class="card-image">
-            <img class="activator" src="{{ post.timage }}">
+            {% asset '{{ post.image }}' magick:resize="300x200" magick:crop="300x200" magick:quality="25%" class="image activator" alt='{{ post.title }}' %}
             <a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </div>
           <div class="card-content">
@@ -82,7 +80,7 @@ layout: default
       <div class="col s12 m3">
         <div class="card large">
           <div class="card-image">
-            <img class="activator" src="{{ post.timage }}">
+            {% asset '{{ post.image }}' magick:resize="300x200" magick:crop="300x200" magick:quality="25%" class="image activator" alt='{{ post.title }}' %}
             <a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </div>
           <div class="card-content">
@@ -105,7 +103,7 @@ layout: default
       <div class="col s12 m3">
         <div class="card large">
           <div class="card-image">
-            <img class="activator" src="{{ post.timage }}">
+            {% asset '{{ post.image }}' magick:resize="300x200" magick:crop="300x200" magick:quality="25%" class="image activator" alt='{{ post.title }}' %}
             <a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </div>
           <div class="card-content">
@@ -129,7 +127,7 @@ layout: default
       <div class="col s12 m3">
         <div class="card large">
           <div class="card-image">
-            <img class="activator" src="{{ post.timage }}">
+            {% asset '{{ post.image }}' magick:resize="300x200" magick:crop="300x200" magick:quality="25%" class="image activator" alt='{{ post.title }}' %}
             <a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </div>
           <div class="card-content">
@@ -149,25 +147,25 @@ layout: default
     <h4>Galleries</h4>
     <div class="galleries-list row">
       {% for post in site.categories['gallery'] %}
-      <div class="col s12 m3">
-        <div class="card large">
-          <div class="card-image">
-            <img class="activator" src="{{ post.timage }}">
-            <a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </div>
-          <div class="card-content">
-            <span><b>{{ post.author }}</b> • {{ post.date | date: "%b %-d, %Y" }}</span>
-            <p>{{ post.teaser }}</p>
-          </div>
-          <div class="card-action">
-            <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
-          </div>
-        </div>
+      <div class="col s12 m4">
+          <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                {% asset '{{ post.image }}' magick:resize="300x200^" magick:crop="300x200" magick:quality="25%" class="image activator" alt='{{ post.title }}' %}
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"><a class="card-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><i class="material-icons right">more_vert</i></span>
+                <p><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">{{ post.title }}<i class="material-icons right">close</i></span>
+                <p>{{ post.content | truncate: 150 }}</p>
+              </div>
+            </div>
       </div>
       {% endfor %}
     </div>
   </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

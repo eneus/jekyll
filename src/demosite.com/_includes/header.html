@@ -1,12 +1,15 @@
 <header class="site-header">
 
-  <div class="">
+
     <nav>
       <div class="nav-wrapper container">
-        <a class="site-title brand-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        {% include nav.html nav=site.data.menu %}
+          <a class="site-title brand-logo" href="{{ site.baseurl }}/">
+            <img class="site-logo" title="{{ site.title }}" alt="{{ site.title }}" src="/assets/logo-jekyll-docker.png">
+          </a>
+        <ul class="right hide-on-med-and-down">
+          {% include nav.html nav=site.data.menu %}
+        </ul>
       </div>
     </nav>
-  </div>
 
 </header>

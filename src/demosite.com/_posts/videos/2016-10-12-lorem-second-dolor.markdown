@@ -3,8 +3,7 @@ layout: video
 title: Lorem second dolor
 categories: video
 author: Elon Quarz
-timage: /assets/images/content/teaser/10.jpg
-image: /assets/images/content/original/10.jpg
+image: 10.jpg
 teaser: Donec eget eros dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam leo felis, blandit eget consectetur vitae, molestie et mauris. Praesent ut venenatis felis, sit amet gravida mi. Nullam finibus ultricies turpis sit amet maximus. Nunc quis lectus leo. Duis a rutrum libero.
 ---
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/50MukADPNCA?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

@@ -4,8 +4,7 @@ title: Pellentesque aliquet neque sed tortor
 categories: product
 author: Melisa Carter
 price: 2.6
-timage: /assets/images/content/teaser/32.jpg
-image: /assets/images/content/original/32.jpg
+image: 32.jpg
 teaser: Ut efficitur eget urna vel pretium. Pellentesque aliquet neque sed tortor sollicitudin dapibus. Vivamus eu fermentum ligula. Pellentesque pretium, nisl at tempus mattis, elit enim fringilla diam, nec convallis urna diam at lectus. Ut vel purus et purus pellentesque consequat. Proin orci felis, bibendum id lacus in, consectetur sagittis ipsum.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

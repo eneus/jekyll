@@ -1,5 +1,7 @@
-html
+html/*/
 .sass-cache/
+.jekyll-cache/
 .jekyll-metadata
 *.DS_Store
 node_modules
+.vscode

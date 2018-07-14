@@ -4,8 +4,7 @@ title: Lorem second dolor
 categories: product
 author: Elon Quarz
 price: 156 000
-timage: /assets/images/content/teaser/35.jpg
-image: /assets/images/content/original/35.jpg
+image: 35.jpg
 teaser: Donec eget eros dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam leo felis, blandit eget consectetur vitae, molestie et mauris. Praesent ut venenatis felis, sit amet gravida mi. Nullam finibus ultricies turpis sit amet maximus. Nunc quis lectus leo. Duis a rutrum libero.
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat

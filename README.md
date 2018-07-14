@@ -1,22 +1,44 @@
 # Jekyll Docker Container
+Jekyll's Docker Container with Demo Content and demo site.
 
-![](https://raw.githubusercontent.com/eneus/jekyll/dev/src/demo/images/logos/jekyll_logo.png) + ![](https://raw.githubusercontent.com/eneus/jekyll/dev/src/demo/images/logos/compass_logo.png) + ![](https://avatars3.githubusercontent.com/u/22247014?s=254&v=3)
+![](./src/demosite.com/assets/docker-jekyll.png)
 
-Jekyll Docker Container with Demo Content and demo site.
+
+## Plugins included:
+```
+- Jekyll: 3.8.3
+  -- jekyll-paginate
+  -- jekyll-sitemap
+  -- jekyll-feed
+  -- jekyll-multisite
+  -- jekyll-github-metadata
+  -- jekyll-seo-tag
+  -- jekyll-watch
+  -- jekyll-sass-converter
+  -- jekyll-assets
+  -- jekyll-multiple-languages-plugin
+- Compass: 1.0.3
+- NodeJS: 8.9.3
+-- NPM: 5.5.1
+-- Yarn: 1.3.2
+```
+
 ## The first of all:
 ##### Install Docker:
-    - On Linux Ubuntu/Debian:
-        https://docs.docker.com/install/linux/docker-ce/ubuntu/ 
-				https://docs.docker.com/install/linux/docker-ce/debian/
-    - On MacOS:
-        https://docs.docker.com/docker-for-mac/install/
-    - On Windows:
-        https://docs.docker.com/docker-for-windows/install/
+- On Linux Ubuntu/Debian:
+  https://docs.docker.com/install/linux/docker-ce/ubuntu/ 
+  https://docs.docker.com/install/linux/docker-ce/debian/
+
+- On MacOS:
+  https://docs.docker.com/docker-for-mac/install/
+
+- On Windows:
+  https://docs.docker.com/docker-for-windows/install/
 
 ##### Install Docker Compose:
-    https://docs.docker.com/compose/install/
+- https://docs.docker.com/compose/install/
 
-##### download repository:
+##### Download repository:
 
 ```
 git clone git@github.com:eneus/jekyll.git
@@ -46,8 +68,6 @@ CGID=1000
 
 ```
 $ make all
-or
-docker-compose up -d     //in background
 ```
 
 ##### Start docker container via docker-compose:
@@ -60,8 +80,7 @@ docker-compose up -d     //in background
 
 ##### Now you can access to you static site:
 
-```
-http://localhost:4000  Jekyll Server
-```
+- Jekyll Server: http://localhost:4000
 
-Image Credits: http://gratisography.com/ , http://gratisography.com/
+---
+Image Credits: http://gratisography.com/ 

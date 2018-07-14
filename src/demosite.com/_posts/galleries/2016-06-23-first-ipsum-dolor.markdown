@@ -4,8 +4,7 @@ title: First lorem ipsum dolor
 categories: gallery
 author: John Qsef
 images: [26.jpg, 27.jpg, 28.jpg, 29.jpg, 30.jpg]
-timage: /assets/images/content/teaser/26.jpg
-image: /assets/images/content/original/26.jpg
+image: 26.jpg
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat
 elit placerat mattis. Nulla auctor, nisi vitae luctus varius, felis eros sodales

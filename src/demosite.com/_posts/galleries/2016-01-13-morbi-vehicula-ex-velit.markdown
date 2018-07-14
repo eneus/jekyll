@@ -4,8 +4,7 @@ title: Morbi vehicula ex velit
 categories: gallery
 author: John Qsef
 images: [1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg]
-timage: /assets/images/content/teaser/1.jpg
-image: /assets/images/content/original/1.jpg
+image: 1.jpg
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus consequat
 elit placerat mattis. Nulla auctor, nisi vitae luctus varius, felis eros sodales
